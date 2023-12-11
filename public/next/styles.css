@@ -1,0 +1,33 @@
+body{
+    background-image:url("blur.jpg");
+    background-size: cover;
+}
+div{
+    align-items:center ;
+    align-content: center;
+    background-color: aliceblue;
+    width: 80%;
+    height: 15cm;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    border-radius: 10px;
+}
+button {
+    margin-top: 0;
+    padding: 10px 20px;
+    background-color: #3498db; /* Button background color*/ 
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect  */
+button:hover {
+     background-color: #2980b9;  /*Darker color on hover  */
+}
